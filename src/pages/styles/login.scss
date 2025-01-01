@@ -81,3 +81,28 @@ button:hover {
 button:active {
     transform: translateY(0);
 }
+
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+    .login-form-container {
+        padding: 20px;
+    }
+
+    .login-form {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng màn hình */
+        height: auto;
+        /* Tự động điều chỉnh chiều cao */
+        padding: 10px;
+    }
+
+    .form-group input {
+        padding: 8px;
+        /* Giảm padding cho màn hình nhỏ hơn */
+    }
+
+    button {
+        font-size: 14px;
+        /* Giảm kích thước font chữ cho nút */
+    }
+}

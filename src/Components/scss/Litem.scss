@@ -19,3 +19,17 @@
     box-shadow: var(--shadow);
     min-height: 40vh;
 }
+
+@media (max-width: 768px) {
+    .container_item {
+        width: 100%;
+        grid-template-rows: repeat(4, 1fr);
+        /* Tăng số hàng để hiển thị các mục theo chiều dọc */
+        grid-template-columns: 1fr;
+        /* Chuyển thành một cột */
+        padding: 10px;
+        /* Giảm padding cho màn hình nhỏ hơn */
+        margin-bottom: 50px;
+        /* Giảm margin-bottom cho màn hình nhỏ hơn */
+    }
+}

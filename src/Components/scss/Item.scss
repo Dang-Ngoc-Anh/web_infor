@@ -1,0 +1,30 @@
+.item {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid beige;
+    margin: 50px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.name {
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(51, 46, 46);
+    // font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}

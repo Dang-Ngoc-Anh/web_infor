@@ -27,5 +27,24 @@
     color: rgb(88, 78, 78);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
+}
 
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+    .item {
+        margin: 20px;
+    }
+
+    .item img {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng màn hình */
+        height: auto;
+        /* Tự động điều chỉnh chiều cao */
+    }
+
+    .name {
+        font-size: 1em;
+        /* Giảm kích thước font chữ */
+        padding: 5px;
+    }
 }

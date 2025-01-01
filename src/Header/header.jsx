@@ -12,14 +12,17 @@ const Header = () => (
         </button>
         <ul class="nav-links">
           <li>
-            <a href="home">Home</a>
+            <a href="/home">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="/login">Logout</a>
+          </li>
+          {/* <li>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
-          </li>
+            <a href="/contact">Contact</a>
+          </li> */}
         </ul>
       </div>
     </nav>
@@ -30,16 +33,7 @@ const Header = () => (
         <h1 class="section-title">Welcome BECC88</h1>
       </div>
     </section>
-    <section id="about">
-      <div class="bg-effect bg-effect-2"></div>
-      <div class="section-content">
-        <h1 class="section-title">About Us</h1>
-        <p class="section-description">
-          Pushing boundaries and creating extraordinary experiences since 2024
-        </p>
-      </div>
-    </section>
-    <section id="contact">
+    {/* <section id="contact">
       <div class="bg-effect bg-effect-1"></div>
       <div class="section-content">
         <h1 class="section-title">Contact</h1>
@@ -47,7 +41,7 @@ const Header = () => (
           Let's create something amazing together
         </p>
       </div>
-    </section>
+    </section> */}
     {/*
         <section id="services">
           <div class="bg-effect bg-effect-1"></div>

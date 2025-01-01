@@ -17,12 +17,15 @@ const ItemDetail = () => {
   console.log("item " + item);
   return (
     <div className="item-detail">
-      <img src={item.img} alt={item.name} />
-      <p className="name">{item.name}</p>
-      <p className="birthdate">{`Ngày sinh: ${item.birtday}`}</p>
+      <img src={item.img2} alt={item.name} />
+      {/* <p className="name">{item.name}</p> */}
+      <div></div>
+      <a className="hobbies" href={item.profile}>
+        {item.name}
+      </a>
+      <p className="birthdate">{`Ngày sinh: ${item.birthday}`}</p>
       <p className="address">{`Địa chỉ: ${item.address}`}</p>
       <p className="hobbies">{`Sở thích: ${item.des}`}</p>
-      <a className="hobbies" href={item.profile}>{`Facebook`}</a>
       <button onClick={handleBack}>Back</button>
     </div>
   );

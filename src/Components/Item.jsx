@@ -8,7 +8,7 @@ const ItemInfo = ({ item }) => {
   };
   return (
     <div className="item" onClick={handleClick}>
-      <img src={item.img} />
+      <img src={item.img1} />
       <p className="name">Name : {item.name}</p>
       <p className="name">Địa chỉ : {item.address}</p>
       <p className="name">Ngày sinh : {item.birthday}</p>

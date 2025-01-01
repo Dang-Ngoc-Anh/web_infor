@@ -6,7 +6,7 @@
 }
 
 .container_item {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     display: grid;
     flex-wrap: wrap;
@@ -17,4 +17,5 @@
     margin-bottom: 200px;
     background: rgb(207, 200, 200);
     box-shadow: var(--shadow);
+    min-height: 40vh;
 }
